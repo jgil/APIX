@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transformation>
+    <nbRequest href="request.xml" />
+    <cnRequest href="request.xml" />
+    <sbRequest href="str1234" />
+    <sbResponse href="response.xml" />
+    <cnResponse href="response.xml" />
+    <nbResponse href="str1234" />
+    <context href="str1234" />
+</transformation>

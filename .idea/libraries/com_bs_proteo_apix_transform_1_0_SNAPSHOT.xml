@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.bs.proteo.apix.transform-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/transform/target/com.bs.proteo.apix.transform-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

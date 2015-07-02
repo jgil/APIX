@@ -1,0 +1,98 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+            <faultcode>SOAP-ENV:Server</faultcode>
+            <faultstring>ProteoRuntimeException</faultstring>
+            <faultactor>PROVIDER</faultactor>
+            <detail>
+                <ns2:ProteoFaultInfo xmlns:ns2="http://proteo.bs.com/soa/architecture/v5/" xmlns:ns3="http://proteo.bs.com/soa/backend/sibis/v1">
+                    <ProteoFault2>
+                        <faultCode>36</faultCode>
+                        <faultSeverity>8</faultSeverity>
+                        <faultDescription>Se ha producido un error en Host.</faultDescription>
+                        <faultType>C-FUNC</faultType>
+                        <ns2:Properties>
+                            <property>
+                                <key>HEADER.SERVICE_COUNTRY</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ES</value>
+                            </property>
+                            <property>
+                                <key>HEADER.SERVICE_NAME</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">validacioncv</value>
+                            </property>
+                            <property>
+                                <key>HEADER.STATUS</key>
+                                <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-2</value>
+                            </property>
+                            <property>
+                                <key>HEADER.SERVICE_DOMAIN</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">validacioncv</value>
+                            </property>
+                            <property>
+                                <key>HEADER.USER.NAME</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">na</value>
+                            </property>
+                            <property>
+                                <key>ParamsError</key>
+                                <value xsi:type="ns2:CommonList" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                            </property>
+                            <property>
+                                <key>HEADER.TRACKING_ID</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ATP5ea044e8-d8dc-4018-9f35-b227661a6211</value>
+                            </property>
+                            <property>
+                                <key>HEADER.ENVIRONMENT_NAME</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ATPEnvironment</value>
+                            </property>
+                            <property>
+                                <key>HEADER.TIMESTAMP</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2015-06-30 15:59:23.25</value>
+                            </property>
+                            <property>
+                                <key>HEADER.BUSINESS_DOMAIN</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">firms</value>
+                            </property>
+                            <property>
+                                <key>BackendError</key>
+                                <value xsi:type="ns3:HostError" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                    <ns3:messages>
+                                        <ns3:id>16856</ns3:id>
+                                        <ns3:severity>8</ns3:severity>
+                                        <ns3:description>ERROR EN LA RUTINA DE CáLCULO CóDIGO CALENDARIO</ns3:description>
+                                    </ns3:messages>
+                                </value>
+                            </property>
+                            <property>
+                                <key>HEADER.NODE_NAME</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">NODE_01</value>
+                            </property>
+                            <property>
+                                <key>HEADER.SERVICE_LANGUAGE</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</value>
+                            </property>
+                            <property>
+                                <key>HEADER.SESSION_ID</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6c9f8c65-7125-4859-87f0-4eafc2ba003c</value>
+                            </property>
+                            <property>
+                                <key>HEADER.SERVICE_PROCEDENCE</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt</value>
+                            </property>
+                            <property>
+                                <key>NativeError</key>
+                                <value xsi:type="ns2:NativeFaultDetail" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                    <faultCode>16856</faultCode>
+                                    <faultDescription>ERROR EN LA RUTINA DE CáLCULO CóDIGO CALENDARIO</faultDescription>
+                                </value>
+                            </property>
+                            <property>
+                                <key>HEADER.LAYER_NAME</key>
+                                <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BS</value>
+                            </property>
+                        </ns2:Properties>
+                    </ProteoFault2>
+                </ns2:ProteoFaultInfo>
+            </detail>
+        </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
