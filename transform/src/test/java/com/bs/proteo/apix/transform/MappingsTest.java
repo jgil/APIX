@@ -16,11 +16,15 @@ public class MappingsTest {
 
     @org.junit.Test
     public void testGetSourceNamespace() throws Exception {
-
+        assertEquals(
+                Mappings.getSourceNamespace("http://proteo.bs.com/firms/validacioncv/business/validacioncv/domain/message/"),
+                "http://proteo.bs.com/soa/service/mainframe/Validacioncv/domain/message");
     }
 
     @org.junit.Test
     public void testGetRoutingKey() throws Exception {
-
+        assertEquals(
+                Mappings.getRoutingKey("http://proteo.bs.com/soa/service/mainframe/Validacioncv/domain/message"),
+                "Validacioncv");
     }
 }
